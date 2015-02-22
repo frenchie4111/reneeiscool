@@ -34,7 +34,7 @@ body {
 #menu_area {
     color: white;
     position: fixed;
-    top: 30px;
+    top: 25px;
     left: 50%;
     width: 960px;
     margin-left: -480px;
@@ -133,6 +133,22 @@ body {
     width: 630px;
     height: 100%;
     background-position: 50% 50%; /* Center the background image */
+}
+
+/*
+-------------- Footer Classes -----------------
+*/
+
+#contact {
+    width: 1020px;
+    height: 375px;
+    background-color: #05080B;
+}
+
+#footer {
+    width: 1020px;
+    height: 375px;
+    background-color: #05080B;
 }
 
 /*
