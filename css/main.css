@@ -94,7 +94,6 @@ body {
 }
 
 #work_content {
-    height: 100%;
     padding: 30px 40px 80px 30px;
 }
 
@@ -196,4 +195,8 @@ body {
 
 .centered_text {
     text-align: center;
+}
+
+.clear {
+    clear: both
 }
