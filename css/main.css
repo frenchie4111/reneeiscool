@@ -17,23 +17,27 @@ body {
 
 #main_container {
     width: 1020px;
-    margin: 0 auto;
 }
 
 /*
--------------- Start Menu Items -----------------
+-------------- Menu Items -----------------
 */
 
 #header_image {
     background-position: 50% 50%; /* Center the background image */
 
     /* TODO: DIMENSIONS Get specific dimensions for the positioning of the menu */
-    padding: 30px 45px 0 45px;
     height: 500px;
+    width: 100%;
 }
 
 #menu_area {
     color: white;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    width: 960px;
+    margin-left: -480px;
 }
 
 #menu_header {
@@ -49,8 +53,38 @@ body {
     padding-left: 45px;
 }
 
+#header_box {
+    width: 300px;
+    background-color: rgba( 0, 0, 0, .4 );
+    color: white;
+}
+
+#header_box_header {
+    font-size: 30px;
+    position: relative;
+    padding: 15px;
+    line-height: 35px;
+}
+
+#header_box_header:after {
+    content: '';
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 42px;
+    height: 1px;
+    width: 225px;
+}
+
+#header_box_content {
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 15px;
+    text-align: left;
+}
+
 /*
--------------- Start Generic Classes -----------------
+-------------- Generic Classes -----------------
 */
 
 /* Generic class for left floated object */
@@ -66,4 +100,28 @@ body {
 /* Generic class for inline block object (Makes a div not take up it's own line) */
 .inline {
     display: inline-block;
+}
+
+.table {
+    display: table;
+}
+
+.table_row {
+    display: table-row;
+}
+
+.table_cell {
+    display: table-cell;
+}
+
+.vertical_middle {
+    vertical-align: middle;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.centered_text {
+    text-align: center;
 }
