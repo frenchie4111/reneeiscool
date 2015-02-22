@@ -34,7 +34,7 @@ body {
 #menu_area {
     color: white;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 50%;
     width: 1020px;
     height: 50px;
@@ -144,10 +144,51 @@ body {
 -------------- Footer Classes -----------------
 */
 
-#contact {
+#who {
+    color: white;
     width: 1020px;
     height: 375px;
     background-color: #05080B;
+}
+
+#who_header {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 30px 0 0 40px;
+}
+
+#who_content_container {
+    position: relative;
+    top: 75px;
+    width: 100%;
+    height: 165px;
+}
+
+#who_content {
+    width: 820px;
+}
+
+#who_image {
+    width: 165px;
+    height: 165px;
+}
+
+#who_text_container {
+    width: 615px;
+}
+
+#who_text_header {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0 10px 0;
+    border-bottom: white 2px solid;
+}
+
+#who_text {
+    padding: 25px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 #footer {
