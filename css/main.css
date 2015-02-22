@@ -85,6 +85,57 @@ body {
 }
 
 /*
+-------------- Work Classes -----------------
+*/
+
+#work {
+    width: 1020px;
+    background-color: #F0F4F1;
+}
+
+#work_content {
+    height: 100%;
+    padding: 30px 40px 80px 30px;
+}
+
+#work_header {
+    margin-bottom: 30px;
+}
+
+.work_item {
+    height: 310px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+.work_item_text {
+    height: 100%;
+    width: 320px;
+    background-color: aqua;
+}
+
+.work_item_text_content {
+    height: 100%;
+    padding: 35px 25px 35px 25px;
+}
+
+.work_item_text_header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.work_item_text_details {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.work_item_image {
+    width: 630px;
+    height: 100%;
+    background-position: 50% 50%; /* Center the background image */
+}
+
+/*
 -------------- Generic Classes -----------------
 */
 
@@ -117,6 +168,10 @@ body {
 
 .vertical_middle {
     vertical-align: middle;
+}
+
+.vertical_bottom {
+    vertical-align: bottom;
 }
 
 .centered {
