@@ -2,7 +2,68 @@
     This file contains generic shared styles for all of reneeis.cool
 */
 
+html {
+    /* This is so that the children of this can be centered */
+    width: 100%;
+}
+
 body {
     /* Set the google web font here */
     font-family: 'Open Sans', sans-serif;
+
+    /* This is so that the children of this can be centered */
+    width: 100%;
+}
+
+#main_container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/*
+-------------- Start Menu Items -----------------
+*/
+
+#header_image {
+    background-position: 50% 50%; /* Center the background image */
+
+    /* TODO: DIMENSIONS Get specific dimensions for the positioning of the menu */
+    padding: 30px 45px 0 45px;
+    height: 500px;
+}
+
+#menu_area {
+    color: white;
+}
+
+#menu_header {
+    background-color: gray;
+    width: 200px;
+    height: 40px;
+    margin-top: -15px; /* Move it up so it aligns with the menu items */
+}
+
+.menu_item {
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 45px;
+}
+
+/*
+-------------- Start Generic Classes -----------------
+*/
+
+/* Generic class for left floated object */
+.left {
+    float: left;
+}
+
+/* Generic class for right floated object */
+.right {
+    float: right;
+}
+
+/* Generic class for inline block object (Makes a div not take up it's own line) */
+.inline {
+    display: inline-block;
 }
