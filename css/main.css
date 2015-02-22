@@ -1,3 +1,8 @@
 /*
     This file contains generic shared styles for all of reneeis.cool
 */
+
+body {
+    /* Set the google web font here */
+    font-family: 'Open Sans', sans-serif;
+}
