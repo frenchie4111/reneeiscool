@@ -54,34 +54,58 @@
 
         <div id="work">
             <div id="work_content"> <!-- We wrap it like this so that we can pad the work_content -->
+
+
+                <!-- This is the header for the work sections, for mor information on styling see #work_header in main.css -->
                 <div id="work_header">
                     My Work
                 </div>
+
+                <!-- This is a single item of work, copy + past this to make another work item -->
                 <div class="work_item">
+
+                    <!--
+                        This is the text box for the work item. Note the class left, change this to right (and change the
+                        work_item_image to left) to swap the text and the picture
+
+                        This background-color represents the color of the background behind the text
+                    -->
                     <div class="work_item_text left" style="background-color: #3F72A7">
-                        <div class="work_item_text_content table">
+                        <div class="work_item_text_content table"> <!-- the table_row, table_cell, table stuff is for centering / positioning the items -->
                             <div class="work_item_text_header table_row">
-                                <div class="table_cell">
+                                <div class="table_cell"> <!-- This is the work items title -->
                                     <a>
                                         ASPCA REDESIGN
                                     </a>
                                 </div>
                             </div>
                             <div class="work_item_text_description table_row">
-                                <div class="table_cell">
+                                <div class="table_cell"> <!-- This is the work item's description -->
                                     Find empty spot in cupboard and sleep all day. Eat grass, throw it back up ears back wide eyed so under the bed hunt anything that moves.
                                 </div>
                             </div>
                             <div class="work_item_text_details table_row">
-                                <div class="table_cell vertical_bottom">
-                                    View Details
+                                <div class="table_cell vertical_bottom"> <!-- Having vertical_bottom makes this item stick to the bottom of the box -->
+                                    View Details <!-- TODO: Add link -->
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!--
+                        This is the work_item_image, the picture for hte work item. To change the image add a new image
+                        to the images folder, and change the background-image style property you see below
+
+                        To swap the image / description change the right class here to left, and change the work_item_text's
+                        left class to right
+                    -->
                     <div class="work_item_image right" style="background-image: url('images/kitten1.jpeg')"></div>
                 </div>
 
+                <!--
+                    This is another work item, not the swapping of the left + right and the image + text to reverse
+                    the order.
+                -->
                 <div class="work_item">
                     <div class="work_item_image left" style="background-image: url('images/kitten1.jpeg')"></div>
                     <div class="work_item_text right" style="background-color: #6EA5DA">
@@ -107,6 +131,10 @@
                     </div>
                 </div>
 
+
+                <!--
+                    The third work history item
+                -->
                 <div class="work_item">
                     <div class="work_item_text left" style="background-color: #89B9DA">
                         <div class="work_item_text_content table">
@@ -142,7 +170,9 @@
             </div>
             <div id="who_content_container">
                 <div id="who_content" class="centered">
-                    <div id="who_image" class="inline left" style="background-image: url('images/profile.png')"></div>
+
+                    <!-- To change the profile picture change the url in the background-image property to something else -->
+                    <div id="who_image" class="inline left" style="background-image: url('images/beautiful_renee.png')"></div>
                     <div id="who_text_container" class="inline right">
                         <div id="who_text_header" class="inline">
                             WHAT'S GOING ON?
