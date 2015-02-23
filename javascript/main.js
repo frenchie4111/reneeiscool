@@ -11,15 +11,9 @@
     var _toggleTop = function() {
         var menu_area = $( '#menu_area' );
 
-        var picture_height = $( '#header_image' ).height();
-        var header_height = menu_area.height();
-
-        var threshhold = picture_height - header_height;
-
-        if( $( document ).scrollTop() > threshhold ) {
-            menu_area.addClass( 'menu_background', 2000 );
-        }
-        if( $( document ).scrollTop() < threshhold ) {
+        if( $( document ).scrollTop() > 5 ) {
+            menu_area.addClass( 'menu_background', 1000 );
+        } else {
             menu_area.removeClass( 'menu_background' );
         }
     };
