@@ -180,7 +180,7 @@ body {
 #who {
     color: white;
     width: 1020px;
-    height: 375px;
+    height: 320px;
     background-color: #05080B;
 }
 
@@ -238,6 +238,22 @@ body {
     height: 30px;
     background-size: 100%;
     margin: 0 14px 0 14px;
+    opacity: .7;
+
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.footer_icon:hover {
+    opacity: 1;
+    cursor: pointer;
+
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
 }
 
 /*
