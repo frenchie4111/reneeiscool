@@ -16,7 +16,7 @@ body {
 }
 
 #main_container {
-    width: 1020px;
+    width: 100%;
 }
 
 /*
@@ -25,6 +25,7 @@ body {
 
 #header_image {
     background-position: 50% 50%; /* Center the background image */
+    background-size: cover;
 
     /* TODO: DIMENSIONS Get specific dimensions for the positioning of the menu */
     height: 500px;
@@ -35,15 +36,18 @@ body {
     color: white;
     position: fixed;
     top: 0;
-    left: 50%;
-    width: 1020px;
+    width: 100%;
     height: 50px;
-    margin-left: -510px;
 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+#menu_width {
+    width: 1020px;
+    margin: 0px auto;
 }
 
 .menu_background {
@@ -111,12 +115,14 @@ body {
 */
 
 #work {
-    width: 1020px;
+    width: 100%;
     background-color: #F0F4F1;
     color: rgba( 255, 255, 255, .8 );
 }
 
 #work_content {
+    width: 1020px;
+    margin: 0px auto;
     padding: 30px 40px 65px 30px;
 }
 
@@ -179,7 +185,7 @@ body {
 
 #who {
     color: white;
-    width: 1020px;
+    width: 100%;
     height: 320px;
     background-color: #05080B;
 }
@@ -228,7 +234,7 @@ body {
 }
 
 #footer {
-    width: 1020px;
+    width: 100%;
     height: 100px;
     background-color: #1A1A1A;
 }
