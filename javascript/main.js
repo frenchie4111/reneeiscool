@@ -5,8 +5,16 @@
  *     - Michael Lyons (mdl0394@gmail.com)
  */
 
+function OpenResume() {
+    var win = window.open('resume.pdf', '_blank');
+    win.focus();
+}
+
 (function() {
     'use strict';
+
+    var WORK_LINK = 450;
+    var CONTACT_LINK = 100000;
 
     var _toggleTop = function() {
         var menu_area = $( '#menu_area' );
@@ -20,6 +28,14 @@
 
     $( document ).ready( function() {
         $( document ).scroll( _toggleTop );
+
+        $( "#work_link" ).click( function() {
+            $( document ).scrollTop( WORK_LINK );
+        } );
+
+        $( "#contact_link" ).click( function() {
+            $( document ).scrollTop( CONTACT_LINK );
+        } );
     } );
 
 })();

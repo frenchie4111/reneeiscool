@@ -74,6 +74,7 @@ body {
     font-weight: bold; /* TODO: Bold italic */
     font-size: 15px;
     padding-left: 35px;
+    cursor: pointer;
 }
 
 #header_box {
