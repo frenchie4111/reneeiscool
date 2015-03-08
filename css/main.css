@@ -120,8 +120,12 @@ body {
     color: rgba( 255, 255, 255, .8 );
 }
 
-#work_content {
+#work_width {
     width: 1020px;
+    margin: 0px auto;
+}
+
+#work_content {
     margin: 0px auto;
     padding: 30px 40px 65px 30px;
 }
