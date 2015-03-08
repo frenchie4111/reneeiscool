@@ -270,6 +270,10 @@ body {
 -------------- Generic Classes -----------------
 */
 
+.bold {
+    font-weight: bold;
+}
+
 /* Generic class for left floated object */
 .left {
     float: left;
@@ -315,4 +319,8 @@ body {
 
 .clear {
     clear: both
+}
+
+.line_height_high {
+    line-height: 30px;
 }
