@@ -111,4 +111,5 @@
 
 .project_stills_still_box img {
     width: 100%;
+    z-index: 0;
 }
