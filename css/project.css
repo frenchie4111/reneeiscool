@@ -1,0 +1,110 @@
+#header_image {
+    text-align: center;
+}
+
+.project_header {
+    font-size: 40pt;
+    font-weight: bold;
+    color: white;
+    width: 275px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 120px;
+}
+
+.project_subheader {
+    font-size: 12pt;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.project_button {
+    font-size: 12pt;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+    border: 1px solid;
+    padding: 8pt 15pt 8pt 15pt;
+}
+
+.project_image {
+    width: 975px;
+    height: 512px;
+    position: absolute;
+    top: 353px;
+    left: 50%;
+    margin-left: -488px;
+}
+
+.project_description_box {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.project_description {
+    width: 660px;
+    padding-top: 440px;
+    padding-bottom: 110px;
+    display: inline-block;
+    font-size: 22pt;
+    font-weight: lighter;
+}
+
+.project_stills_box {
+    width: 100%;
+    background-color: #F0F4F1;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.project_stills_box_box {
+    position: relative;
+    width: 1020px;
+    margin: 0px auto;
+}
+
+.project_stills_header {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    padding-left: 40px;
+    padding-top: 60px;
+
+    color: #0E283F;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.project_selection_box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 13pt;
+    font-weight: 400;
+}
+
+.project_selection_name {
+    display: inline-block;
+    padding: 0 0 6px 0;
+    margin: 0 20px 0 20px;
+    border-bottom: 1px solid;
+}
+
+.project_stills_still_box {
+    width: 760px;
+    display: inline-block;
+}
+
+.project_stills_still_box img {
+    width: 100%;
+}
