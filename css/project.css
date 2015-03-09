@@ -58,6 +58,10 @@
     font-weight: lighter;
 }
 
+.project_description b {
+    font-weight: bold;
+}
+
 .project_stills_box {
     width: 100%;
     background-color: #F0F4F1;
