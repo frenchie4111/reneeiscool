@@ -1,0 +1,55 @@
+<html>
+<head>
+    <!-- Google web fonts stuff -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Our stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" /> <!-- Put main before index so that index.css styles can overwrite main.css -->
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+    <!-- jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Our Javascript -->
+    <script src="javascript/main.js"></script>
+</head>
+<body>
+
+<div id="main_container" class="centered"> <!-- Main container, holds ALL parts of the page -->
+
+    <div id="menu_area"> <!-- The menu bar -->
+        <div id="menu_width">
+            <div class="left inline" id="menu_header"> <!-- Left side of menu bar -->
+            </div>
+            <div class="right inline" id="menu"> <!-- Left side of menu bar -->
+                <a href="index.html"><div class="menu_item inline" id="home_link">Home</div></a>
+                <div class="menu_item inline" id="contact_link">
+                    Contact
+                </div>
+                <div class="menu_item inline" onclick="OpenResume();">
+                    Resume
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="header_image" style="background-image: url('images/header_pic.png')"> <!-- Header picture (The thing with the mountain) -->
+    </div>
+
+    <div id="footer" class="centered_text table">
+        <div class="table_row">
+            <div class="centered inline table_cell vertical_middle">
+                <div class="footer_icon inline" style="background-image: url( 'images/icon_behance.png' )"></div>
+                <div class="footer_icon inline" style="background-image: url( 'images/icon_gmail.png' )"></div>
+                <div class="footer_icon inline" style="background-image: url( 'images/icon_instagram.png' )"></div>
+                <div class="footer_icon inline" style="background-image: url( 'images/icon_twitter.png' )"></div>
+                <div class="footer_icon inline" style="background-image: url( 'images/icon_vimeo.png' )"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -77,6 +77,11 @@ body {
     cursor: pointer;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 #header_box {
     width: 320px;
     background-color: rgba( 0, 0, 0, .4 );
