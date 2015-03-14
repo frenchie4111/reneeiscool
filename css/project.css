@@ -152,7 +152,7 @@
     height: 34px;
     background-image: url( '../images/left_arrow.png' );
     top: 320px;
-    left: 0;
+    left: 40px;
 }
 
 #right_arrow {
@@ -161,5 +161,5 @@
     height: 34px;
     background-image: url( '../images/right_arrow.png' );
     top: 320px;
-    right: 0;
+    right: 40px;
 }
