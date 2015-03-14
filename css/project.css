@@ -138,12 +138,16 @@
 }
 
 .project_stills_still_box {
+    position: relative;
     width: 760px;
     display: inline-block;
 }
 
 .project_stills_still_box img {
+    position: relative;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 #left_arrow {

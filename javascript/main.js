@@ -26,6 +26,45 @@ function OpenResume() {
         }
     };
 
+    var _galleryTransition = function( img, next ) {
+        console.log( 'Transitioning', img, next );
+
+        img.attr( 'src', gallery_images[ next ] );
+    };
+
+    var _gallery = function() {
+        var gallery_box = $( '.project_stills_still_box' );
+        if( !gallery_box ) return;
+
+        var gallery_image = gallery_box.children( 'img' );
+        var left = $( '#left_arrow' );
+        var right = $( '#right_arrow' );
+        if( !gallery_image || !left || !right ) return;
+
+        console.log( 'Setting Up Gallery' );
+        console.log( gallery_images[ gallery_position ] );
+
+        left.click( function() {
+            console.log( gallery_position );
+            if( gallery_position <= 0 ) return;
+
+            var last = gallery_position;
+            gallery_position --;
+
+            _galleryTransition( gallery_image, gallery_position );
+        } );
+
+        right.click( function() {
+            console.log( gallery_position );
+            if( gallery_position > gallery_images.length ) return;
+
+            var last = gallery_position;
+            gallery_position ++;
+
+            _galleryTransition( gallery_image, gallery_position );
+        } );
+    };
+
     $( document ).ready( function() {
         $( document ).scroll( _toggleTop );
 
@@ -42,6 +81,8 @@ function OpenResume() {
         }, function() {
             $( this ).children( '.work_item_hover' ).css( 'visibility', 'hidden' );
         } );
+
+        _gallery();
     } );
 
 })();
