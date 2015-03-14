@@ -25,7 +25,7 @@
 
 .project_button_replacement {
     font-size: 12pt;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     text-align: center;
     padding-top: 0px;
@@ -70,7 +70,6 @@
     display: inline-block;
     font-size: 16pt;
     font-weight: 200;
-    width: 735px;
     padding-bottom: 80px;
 }
 
