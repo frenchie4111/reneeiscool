@@ -95,7 +95,8 @@ img {
 }
 
 .menu_item {
-    font-weight: bold; /* TODO: Bold italic */
+    font-weight: normal; /* TODO: Bold italic */
+    text-transform: uppercase;
     font-size: 15px;
     padding-left: 35px;
     cursor: pointer;
