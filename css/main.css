@@ -10,20 +10,20 @@ html {
 /* Add the fonts */
 @font-face {
     font-family: 'Gotham';
-    src: url("/fonts/gothambold.otf") format("opentype");
+    src: url("../fonts/gothambold.otf") format("opentype");
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url("/fonts/gothammedium.otf") format("opentype");
+    src: url("../fonts/gothammedium.otf") format("opentype");
     font-weight: normal;
 }
 
 
 @font-face {
     font-family: 'Gotham';
-    src: url("/fonts/gothamthin.otf") format("opentype");
+    src: url("../fonts/gothamthin.otf") format("opentype");
     font-weight: 200;
 }
 
