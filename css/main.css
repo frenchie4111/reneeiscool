@@ -147,7 +147,6 @@ a:link, a:visited {
 
 #work {
     width: 100%;
-    color: rgba( 255, 255, 255, .8 );
 }
 
 #work_header {
@@ -177,6 +176,26 @@ a:link, a:visited {
 
 #my_work {
     background-color: #F0F4F1;
+}
+
+.work_item_hover {
+    background-color: rgba( 0, 0, 0, .5 );
+    color: white;
+}
+
+.work_item_hover_title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.work_item_hover_description {
+    font-size: 15px;
+    padding-top: 15px;
+    font-weight: 200;
 }
 
 /*
@@ -326,4 +345,8 @@ a:link, a:visited {
 
 .line_height_high {
     line-height: 30px;
+}
+
+.light {
+    font-weight: 200;
 }
