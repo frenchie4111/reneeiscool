@@ -26,10 +26,29 @@ function OpenResume() {
         }
     };
 
-    var _galleryTransition = function( img, next ) {
-        console.log( 'Transitioning', img, next );
+    var _updateDots = function( val, count ) {
+        var dot_container = $( '.project_stills_circles_container' );
+        if( !dot_container ) return;
 
+        var dots = dot_container.children( '.project_stills_circle' );
+
+        if( dots.length < count ) {
+            for( var i = dots.length; i < count; i++ )
+            {
+                var new_dot = $( '<div></div>' ).addClass( 'project_stills_circle' );
+                dot_container.append( new_dot );
+            }
+            dots = dot_container.children( '.project_stills_circle' )
+        }
+
+        dots.removeClass( 'project_stills_circle_filled' );
+        $( dots[ val ] ).addClass( 'project_stills_circle_filled' );
+    };
+
+    var _galleryTransition = function( img, next ) {
         img.attr( 'src', gallery_images[ next ] );
+
+        _updateDots( next );
     };
 
     var _gallery = function() {
@@ -40,9 +59,6 @@ function OpenResume() {
         var left = $( '#left_arrow' );
         var right = $( '#right_arrow' );
         if( !gallery_image || !left || !right ) return;
-
-        console.log( 'Setting Up Gallery' );
-        console.log( gallery_images[ gallery_position ] );
 
         left.click( function() {
             console.log( gallery_position );
@@ -83,6 +99,7 @@ function OpenResume() {
         } );
 
         _gallery();
+        _updateDots( gallery_position, gallery_images.length );
     } );
 
 })();
