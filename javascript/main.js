@@ -36,6 +36,12 @@ function OpenResume() {
         $( "#contact_link" ).click( function() {
             $( document ).scrollTop( CONTACT_LINK );
         } );
+
+        $( '.work_item' ).hover( function() {
+            $( this ).children( '.work_item_hover' ).css( 'visibility', 'visible' );
+        }, function() {
+            $( this ).children( '.work_item_hover' ).css( 'visibility', 'hidden' );
+        } );
     } );
 
 })();

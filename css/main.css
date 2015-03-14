@@ -151,7 +151,7 @@ a:link, a:visited {
 
 #work_header {
     font-size: 20pt;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
 }
 
 #work_width {
@@ -181,6 +181,12 @@ a:link, a:visited {
 .work_item_hover {
     background-color: rgba( 0, 0, 0, .5 );
     color: white;
+
+    visibility: hidden;
+}
+
+.work_item_hover {
+    cursor: pointer;
 }
 
 .work_item_hover_title {
