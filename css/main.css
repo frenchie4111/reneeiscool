@@ -72,7 +72,7 @@ img {
 
 #menu_width {
     width: 1020px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .menu_background {
@@ -153,11 +153,11 @@ a:link, a:visited {
 
 #work_width {
     width: 1020px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 #work_content {
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 30px 40px 65px 30px;
 }
 
