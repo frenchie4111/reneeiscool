@@ -24,7 +24,7 @@ html {
 @font-face {
     font-family: 'Gotham';
     src: url("/fonts/gothamthin.otf") format("opentype");
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 body {
@@ -114,7 +114,7 @@ a:link, a:visited {
 
 #header_box_header {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 1px;
     position: relative;
     padding: 15px;
@@ -133,7 +133,7 @@ a:link, a:visited {
 
 #header_box_content {
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: normal;
     line-height: 17px;
     padding: 15px;
@@ -187,7 +187,7 @@ a:link, a:visited {
 
 .work_item_text_header {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bold;
 
 }
 
@@ -198,13 +198,13 @@ a:link, a:visited {
 
 .work_item_text_description {
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 200;
     line-height: 19px;
 }
 
 .work_item_text_details {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .work_item_image {
@@ -226,8 +226,7 @@ a:link, a:visited {
 
 #who_header {
     font-size: 15pt;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: normal;
     padding: 30px 0 0 40px;
 }
 
@@ -253,7 +252,7 @@ a:link, a:visited {
 
 #who_text_header {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 1px;
     padding: 15px 0 10px 0;
     border-bottom: 1px solid rgba( 255, 255, 255, .2 );
@@ -262,7 +261,7 @@ a:link, a:visited {
 #who_text {
     padding: 20px 0 0 0;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 22px;
     color: rgba( 255, 255, 255, .8 );
 }
