@@ -163,6 +163,7 @@ a:link, a:visited {
 #work_content {
     margin: 0 auto;
     padding: 60px 18px 60px 18px;
+    text-align: center;
 }
 
 .work_item {
@@ -171,7 +172,7 @@ a:link, a:visited {
     height: 315px;
     width: 315px;
     background-color: gray;
-    margin: 5px;
+    margin: 2px;
 }
 
 #my_work {
