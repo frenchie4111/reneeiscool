@@ -7,9 +7,29 @@ html {
     width: 100%;
 }
 
+/* Add the fonts */
+@font-face {
+    font-family: 'Gotham';
+    src: url("/fonts/gothambold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("/fonts/gothammedium.otf") format("opentype");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("/fonts/gothamthin.otf") format("opentype");
+    font-weight: lighter;
+}
+
 body {
     /* Set the google web font here */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gotham', arial, sans-serif;
 
     /* This is so that the children of this can be centered */
     width: 100%;
@@ -75,7 +95,6 @@ img {
 }
 
 .menu_item {
-    font-style: italic;
     font-weight: bold; /* TODO: Bold italic */
     font-size: 15px;
     padding-left: 35px;
