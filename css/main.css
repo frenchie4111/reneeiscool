@@ -147,8 +147,12 @@ a:link, a:visited {
 
 #work {
     width: 100%;
-    background-color: #F0F4F1;
     color: rgba( 255, 255, 255, .8 );
+}
+
+#work_header {
+    font-size: 20pt;
+    /*text-transform: uppercase;*/
 }
 
 #work_width {
@@ -163,10 +167,15 @@ a:link, a:visited {
 
 .work_item {
     display: inline-block;
+    text-align: center;
     height: 315px;
     width: 315px;
     background-color: gray;
     margin: 5px;
+}
+
+#my_work {
+    background-color: #F0F4F1;
 }
 
 /*
@@ -254,6 +263,14 @@ a:link, a:visited {
 /*
 -------------- Generic Classes -----------------
 */
+
+.height_100 {
+     height: 100%;
+}
+
+.width_100 {
+    width: 100%;
+}
 
 .bold {
     font-weight: bold;
