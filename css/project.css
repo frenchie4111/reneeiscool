@@ -16,11 +16,19 @@
 
 .project_subheader {
     font-size: 12pt;
-    font-weight: 300;
+    font-weight: 200;
     color: white;
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.project_button_replacement {
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
 }
 
 .project_button {
@@ -35,12 +43,12 @@
 }
 
 .project_image {
-    width: 975px;
-    height: 512px;
+    width: 820px;
+    height: 426px;
     position: absolute;
-    top: 353px;
+    top: 290px;
     left: 50%;
-    margin-left: -488px;
+    margin-left: -410px;
 }
 
 .project_description_box {
@@ -51,11 +59,19 @@
 
 .project_description {
     width: 660px;
-    padding-top: 440px;
-    padding-bottom: 110px;
+    padding-top: 380px;
+    padding-bottom: 50px;
     display: inline-block;
     font-size: 22pt;
-    font-weight: lighter;
+    font-weight: 200;
+}
+
+.project_description_more {
+    display: inline-block;
+    font-size: 16pt;
+    font-weight: 200;
+    width: 735px;
+    padding-bottom: 80px;
 }
 
 .project_description b {
@@ -94,7 +110,7 @@
     padding-bottom: 60px;
     text-align: center;
     font-size: 13pt;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .project_selection_name {
