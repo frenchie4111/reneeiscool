@@ -194,13 +194,13 @@ a:link, a:visited {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     border-bottom: 1px solid white;
 }
 
 .work_item_hover_description {
     font-size: 15px;
-    padding-top: 15px;
+    padding-top: 5px;
     font-weight: 200;
 }
 
