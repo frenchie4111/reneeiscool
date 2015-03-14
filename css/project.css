@@ -58,7 +58,6 @@
 }
 
 .project_description {
-    width: 660px;
     padding-top: 380px;
     padding-bottom: 50px;
     display: inline-block;
@@ -70,6 +69,7 @@
     display: inline-block;
     font-size: 16pt;
     font-weight: 200;
+    width: 700px;
     padding-bottom: 80px;
 }
 
