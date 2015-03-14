@@ -110,6 +110,7 @@
     border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
+    margin: 0 3px 0 3px;
 }
 
 .project_stills_circle_unfilled {
@@ -118,6 +119,7 @@
     border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
+    margin: 0 3px 0 3px;
 }
 
 .project_selection_box {
