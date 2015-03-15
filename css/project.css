@@ -6,10 +6,10 @@
     font-size: 40pt;
     font-weight: bold;
     color: white;
-    width: 275px;
     padding-bottom: 15px;
     border-bottom: 1px solid white;
     text-align: center;
+    display: inline-block;
     margin: 0px auto;
     padding-top: 120px;
 }
