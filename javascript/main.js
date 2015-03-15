@@ -72,7 +72,7 @@ function OpenResume() {
 
         right.click( function() {
             console.log( gallery_position );
-            if( gallery_position > gallery_images.length ) return;
+            if( gallery_position >= gallery_images.length - 1 ) return;
 
             var last = gallery_position;
             gallery_position ++;

@@ -1,0 +1,88 @@
+<html>
+<head>
+    <!-- Google web fonts stuff -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Our stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" /> <!-- Put main before index so that index.css styles can overwrite main.css -->
+    <link type="text/css" rel="stylesheet" href="css/project.css" />
+    <link type="text/css" rel="stylesheet" href="css/3d.css" />
+
+    <!-- jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Our Javascript -->
+    <script>
+        gallery_images = [ 'images/3d_stills/3d_1.png', 'images/3d_stills/3d_2.png', 'images/3d_stills/3d_3.png' ];
+        gallery_position = 0;
+    </script>
+    <script src="javascript/main.js"></script>
+</head>
+<body>
+
+<div id="main_container" class="centered"> <!-- Main container, holds ALL parts of the page -->
+
+    <div id="menu_area"> <!-- The menu bar -->
+        <div id="menu_width">
+            <div class="left inline" id="menu_header"> <!-- Left side of menu bar -->
+            </div>
+            <div class="right inline" id="menu"> <!-- Left side of menu bar -->
+                <a href="index.html"><div class="menu_item inline" id="home_link">Home</div></a>
+                <div class="menu_item inline" id="contact_link">
+                    Contact
+                </div>
+                <div class="menu_item inline" onclick="OpenResume();">
+                    Resume
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="header_image" style="background-color: rgb( 57, 182, 73 )"> <!-- Header picture (The thing with the mountain) -->
+        <div class="table height_100 width_100">
+            <div class="table_row">
+                <div class="table_cell vertical_middle">
+                    <div class="project_header">
+                        3D <a class="light">STILLS</a>
+                    </div>
+                    <div class="project_subheader">
+                        Cinema 4D is Fun
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project_description_box">
+        <div class="project_description">
+            Coming <b style="color: rgb( 57, 182, 73 )">Soon</b>
+        </div><br/>
+    </div>
+
+    <div id="footer" class="centered_text table">
+        <div class="table_row">
+            <div class="centered inline table_cell vertical_middle">
+                <a href="https://www.behance.net/RenHod"><div class="footer_icon inline" style="background-image: url( 'images/icon_behance.png' )"></div></a>
+                <a href="mailto:Rhodenfield@gmail.com"><div class="footer_icon inline" style="background-image: url( 'images/icon_gmail.png' )"></div></a>
+                <a href="https://instagram.com/redhod"><div class="footer_icon inline" style="background-image: url( 'images/icon_instagram.png' )"></div></a>
+                <a href=" https://twitter.com/red_hod"><div class="footer_icon inline" style="background-image: url( 'images/icon_twitter.png' )"></div></a>
+                <a href="https://vimeo.com/user16466819"><div class="footer_icon inline" style="background-image: url( 'images/icon_vimeo.png' )"></div></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-60391574-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
