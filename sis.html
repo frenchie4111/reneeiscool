@@ -7,11 +7,16 @@
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/main.css" /> <!-- Put main before index so that index.css styles can overwrite main.css -->
     <link type="text/css" rel="stylesheet" href="css/project.css" />
+    <link type="text/css" rel="stylesheet" href="css/sis.css" />
 
     <!-- jQuery from CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Our Javascript -->
+    <script>
+        gallery_images = [ 'images/sis_stills/sis_1.png', 'images/sis_stills/sis_2.png' ];
+        gallery_position = 0;
+    </script>
     <script src="javascript/main.js"></script>
 </head>
 <body>
@@ -34,42 +39,48 @@
         </div>
     </div>
 
-    <div id="header_image" style="background-color: #4B7586"> <!-- Header picture (The thing with the mountain) -->
-        <div class="project_header">
-            RIT SIS
-        </div>
-        <div class="project_subheader">
-            Site Redesign
-        </div>
-        <div class="project_button">
-            View Project Brief
+    <div id="header_image" style="background-image: url( 'images/sis_img.jpg' )"> <!-- Header picture (The thing with the mountain) -->
+        <div class="table height_100 width_100">
+            <div class="table_row">
+                <div class="table_cell vertical_middle">
+                    <div class="project_header">
+                        ASPCA
+                    </div>
+                    <div class="project_subheader">
+                        Site Redesign
+                    </div>
+                    <div class="project_button_replacement">
+                        UX, Visual | Photoshop, Illustrator | 4 Weeks
+                    </div>
+                    <div class="project_button">
+                        View Process
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <img class="project_image" src="images/aspca_macbook.png" />
-
     <div class="project_description_box">
         <div class="project_description">
-            Because a high tech <b style="color: #4B7586">school</b> needs a high tech <b style="color: #4B7586">site</b>
+            Because a neat <b style="color: #4B7586">School</b> needs a neat <b style="color: #4B7586">Site</b>
+        </div><br/>
+        <div class="project_description_more">
+            Radda radda radda radda radda radda radda radda radda radda radda radda radda radda radda radda
         </div>
     </div>
 
     <div class="project_stills_box">
         <div class="project_stills_box_box">
+            <div id="left_arrow"></div>
+            <div id="right_arrow"></div>
+
             <div class="project_stills_header">
                 Project Stills
             </div>
-            <div class="project_selection_box">
-                <div class="project_selection_name" style="border-bottom-color: #4B7586;" data-link="images/aspca_home.png">
-                    Home Page
-                </div>
-                <div class="project_selection_name" style="border-bottom-color: #4B7586;">
-                    Add Calendar Event
-                </div>
-            </div>
+            <div class="project_stills_circles_container"></div>
 
             <div class="project_stills_still_box">
-                <img src="images/aspca_home.png" />
+                <img src="images/sis_stills/sis_1.png" />
             </div>
         </div>
     </div>

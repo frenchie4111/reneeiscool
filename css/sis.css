@@ -1,0 +1,27 @@
+#header_image {
+    height: 500px;
+}
+
+.project_header {
+    padding: 0;
+}
+
+.project_button_replacement {
+    padding: 20px 0 40px 0;
+}
+
+.project_button {
+
+}
+
+.project_description_box {
+    padding: 80px 0 80px 0;
+}
+
+.project_description_more {
+    padding: 50px 0 0 0;
+}
+
+.project_description {
+    padding: 0;
+}
