@@ -157,6 +157,10 @@
     left: 40px;
 }
 
+#left_arrow:hover {
+    cursor: pointer;
+}
+
 #right_arrow {
     position: absolute;
     width: 35px;
@@ -164,4 +168,8 @@
     background-image: url( '../images/right_arrow.png' );
     top: 320px;
     right: 40px;
+}
+
+#right_arrow:hover {
+    cursor: pointer;
 }
