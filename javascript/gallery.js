@@ -71,7 +71,7 @@ var Gallery;
         this.position = next;
 
         $( _this.image ).fadeTo( 'fast', 0, function() {
-            _this.image.attr( 'src', gallery_images[ next ] );
+            _this.image.attr( 'src', _this.image_array[ next ] );
             $( _this.image ).fadeTo( 'fast', 1 );
         } );
 

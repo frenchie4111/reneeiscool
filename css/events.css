@@ -4,3 +4,20 @@
     background: -moz-linear-gradient(90deg, rgb( 211, 20, 91 ), rgb( 103, 44, 142 )); /* For Firefox 3.6 to 15 */
     background: linear-gradient(90deg, rgb( 211, 20, 91 ), rgb( 103, 44, 142 ));
 }
+
+.project_image {
+    width: 620px;
+    height: 420px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -310px;
+}
+
+.project_header {
+    min-width: 375px;
+}
+
+#project_stills_still_box_mobile {
+    padding-top: 25px;
+}

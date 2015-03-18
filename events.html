@@ -16,9 +16,11 @@
     <script src="javascript/main.js"></script>
     <script src="javascript/gallery.js"></script>
     <script>
-        var gallery_images = [ 'images/events_stills/events_1.png', 'images/events_stills/events_2.png' ];
+        var gallery_images = [ 'images/events_stills/events_browser_1.png', 'images/events_stills/events_browser_2.png', 'images/events_stills/events_browser_3.png' ];
+        var gallery_images_mobile = [ 'images/events_stills/events_mobile_1.png', 'images/events_stills/events_mobile_2.png', 'images/events_stills/events_mobile_3.png', 'images/events_stills/events_mobile_4.png' ]
         $( function() {
             var gallery = new Gallery( gallery_images, '#project_stills_still_box_img', '#left_arrow', '#right_arrow', '#project_stills_circles' );
+            var gallery_2 = new Gallery( gallery_images_mobile, '#project_stills_still_box_img_mobile', '#left_arrow_mobile', '#right_arrow_mobile', '#project_stills_circles_mobile' );
         } );
     </script>
 </head>
@@ -49,21 +51,39 @@
         <div class="project_subheader">
             Site Redesign
         </div>
-        <div class="project_button">
-            View Project Brief
+        <div class="project_button_replacement">
+            UX, Visual | Photoshop, Illustrator | 4 Weeks
         </div>
     </div>
 
+    <img class="project_image" src="images/events_stills/events_banner.png" />
+
     <div class="project_description_box">
         <div class="project_description">
-            Making <b style="color: rgb( 211, 20, 91 )">Events</b> even more <b style="color: rgb( 103, 44, 142 )">Eventful</b>
+            Making <b style="color: rgb( 211, 20, 91 )">Events</b> look more <b style="color: rgb( 103, 44, 142 )">Eventful</b>
         </div><br/>
         <div class="project_description_more">
-            Radda radda radda radda radda radda radda radda radda radda radda radda radda radda radda radda
+            The current RIT events calendar looks stale and expired, the exact opposite of how campus events should look. When giving this site it's sorely needed make-over, I focused on making it fun! That meant bright colors and fun images designed to capture the user's attention and keep it
         </div>
     </div>
 
     <div class="project_stills_box">
+        <div class="project_stills_box_box">
+            <div id="left_arrow_mobile" class="arrow left_arrow"></div>
+            <div id="right_arrow_mobile" class="arrow right_arrow"></div>
+
+            <div class="project_stills_header">
+                Project Stills
+            </div>
+            <div class="project_stills_circles_container" id="project_stills_circles_mobile"></div>
+
+            <div class="project_stills_still_box" id="project_stills_still_box_mobile">
+                <img src="images/events_stills/events_mobile_1.png" id="project_stills_still_box_img_mobile"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="project_stills_box" style="background-color: white;">
         <div class="project_stills_box_box">
             <div id="left_arrow" class="arrow left_arrow"></div>
             <div id="right_arrow" class="arrow right_arrow"></div>
@@ -74,7 +94,7 @@
             <div class="project_stills_circles_container" id="project_stills_circles"></div>
 
             <div class="project_stills_still_box">
-                <img src="images/events_stills/events_1.png" id="project_stills_still_box_img"/>
+                <img src="images/events_stills/events_browser_1.png" id="project_stills_still_box_img"/>
             </div>
         </div>
     </div>
