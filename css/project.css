@@ -104,20 +104,16 @@
 }
 
 .project_stills_circle {
-    height: 10px;
-    width: 10px;
-    border: 1px solid black;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     display: inline-block;
     margin: 0 3px 0 3px;
+    background-color: gray;
 }
 
 .project_stills_circle_filled {
-    background-color: black;
-}
-
-.project_stills_circle_unfilled {
-    background-color: transparent;
+    background-color: cyan;
 }
 
 .project_selection_box {
