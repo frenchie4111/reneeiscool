@@ -4,14 +4,15 @@
 
 .project_header {
     font-size: 40pt;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 1px solid white;
     text-align: center;
     display: inline-block;
     margin: 0px auto;
-    padding-top: 120px;
+    padding-top: 110px;
+    min-width: 325px;
 }
 
 .project_subheader {
@@ -28,7 +29,7 @@
     font-weight: normal;
     color: white;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 15px;
 }
 
 .project_button {
@@ -58,7 +59,7 @@
 }
 
 .project_description {
-    padding-top: 380px;
+    padding-top: 280px;
     padding-bottom: 50px;
     display: inline-block;
     font-size: 22pt;
@@ -69,7 +70,7 @@
     display: inline-block;
     font-size: 16pt;
     font-weight: 200;
-    width: 700px;
+    width: 740px;
     padding-bottom: 80px;
 }
 
