@@ -38,10 +38,12 @@ function OpenResume() {
         } );
 
         $( '.work_item' ).hover( function() {
+            $( this ).children( '.work_item_hover' ).stop();
             $( this ).children( '.work_item_hover' ).css( 'opacity', 0 );
             $( this ).children( '.work_item_hover' ).css( 'visibility', 'visible' );
             $( this ).children( '.work_item_hover' ).fadeTo( "medium", 1 );
         }, function() {
+            $( this ).children( '.work_item_hover' ).stop();
             $( this ).children( '.work_item_hover' ).fadeTo( "medium", 0, function() {
                 $( this ).children( '.work_item_hover' ).css( 'visibility', 'hidden' );
             } );
