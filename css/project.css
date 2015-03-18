@@ -38,9 +38,15 @@
     color: white;
     text-align: center;
     display: inline-block;
+    position: relative;
     margin: 0px auto;
     border: 1px solid;
     padding: 8pt 15pt 8pt 15pt;
+}
+
+.project_button:hover {
+    background-color: white;
+    color: black;
 }
 
 .project_image {
