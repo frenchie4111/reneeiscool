@@ -32,6 +32,7 @@ var Gallery;
         } );
 
         this.updateDots();
+        this.updateArrows();
     };
 
     Gallery.prototype.updateDots = function() {
@@ -51,6 +52,19 @@ var Gallery;
         $( dots[ this.position ] ).addClass( 'project_stills_circle_filled' );
     };
 
+    Gallery.prototype.updateArrows = function() {
+        this.left.removeClass( 'arrow_hover' );
+        this.right.removeClass( 'arrow_hover' );
+
+        if( this.position > 0 ) {
+            this.left.addClass( 'arrow_hover' );
+        }
+
+        if( this.position < this.image_array.length - 1 ) {
+            this.right.addClass( 'arrow_hover' );
+        }
+    };
+
     Gallery.prototype.performTransition = function( next ) {
         var _this = this;
 
@@ -62,6 +76,7 @@ var Gallery;
         } );
 
         this.updateDots();
+        this.updateArrows();
     };
 
     /**
