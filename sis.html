@@ -13,11 +13,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Our Javascript -->
-    <script>
-        gallery_images = [ 'images/sis_stills/sis_1.png', 'images/sis_stills/sis_2.png' ];
-        gallery_position = 0;
-    </script>
     <script src="javascript/main.js"></script>
+    <script src="javascript/gallery.js"></script>
+    <script>
+        var gallery_images = [ 'images/sis_stills/sis_1.png', 'images/sis_stills/sis_2.png' ];
+        $( function() {
+            var gallery = new Gallery( gallery_images, '#project_stills_still_box_img', '#left_arrow', '#right_arrow', '#project_stills_circles' );
+        } );
+    </script>
 </head>
 <body>
 
@@ -77,10 +80,10 @@
             <div class="project_stills_header">
                 Project Stills
             </div>
-            <div class="project_stills_circles_container"></div>
+            <div class="project_stills_circles_container" id="project_stills_circles"></div>
 
             <div class="project_stills_still_box">
-                <img src="images/sis_stills/sis_1.png" />
+                <img src="images/sis_stills/sis_1.png" id="project_stills_still_box_img" />
             </div>
         </div>
     </div>
