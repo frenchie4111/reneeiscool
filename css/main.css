@@ -56,6 +56,21 @@ img {
     width: 100%;
 }
 
+#header_text_main {
+    display: inline-block;
+    font-size: 32px;
+    color: white;
+    padding: 10px 10px 7px 10px;
+    border: 1px white solid;
+}
+
+#header_text_more {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 28px;
+}
+
 #menu_area {
     color: white;
     position: fixed;
