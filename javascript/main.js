@@ -46,7 +46,10 @@ function OpenResume() {
     };
 
     var _galleryTransition = function( img, next ) {
-        img.attr( 'src', gallery_images[ next ] );
+        $( img ).fadeTo( 'fast', 0, function() {
+            img.attr( 'src', gallery_images[ next ] );
+            $( img ).fadeTo( 'fast', 1 );
+        } );
 
         _updateDots( next );
     };
