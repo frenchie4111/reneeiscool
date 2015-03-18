@@ -31,6 +31,17 @@ var Gallery;
             _this.handleClick( 1 );
         } );
 
+        // Sneakly load them into the page, so they are cached in the browser
+        image_array
+            .forEach( function( image ) {
+                var image_html = $( '<img />' );
+                image_html.attr( 'src', image );
+                image_html.css( 'display', 'none' );
+                image_html.css( 'visible', 'false' );
+                console.log( image_html );
+                $( 'body' ).append( image_html );
+            } );
+
         this.updateDots();
         this.updateArrows();
     };
