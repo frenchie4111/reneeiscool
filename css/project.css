@@ -109,11 +109,11 @@
     border-radius: 50%;
     display: inline-block;
     margin: 0 3px 0 3px;
-    background-color: gray;
+    background-color: #b3b3b3;
 }
 
 .project_stills_circle_filled {
-    background-color: cyan;
+    background-color: #00A99D;
 }
 
 .project_selection_box {
