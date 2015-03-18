@@ -5,6 +5,7 @@
 html {
     /* This is so that the children of this can be centered */
     width: 100%;
+    background-color: black;
 }
 
 /* Add the fonts */
