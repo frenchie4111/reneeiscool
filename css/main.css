@@ -112,8 +112,8 @@ img {
 .menu_item {
     font-weight: normal; /* TODO: Bold italic */
     text-transform: uppercase;
-    font-size: 15px;
-    padding-left: 35px;
+    font-size: 12px;
+    padding-left: 25px;
     cursor: pointer;
 }
 
