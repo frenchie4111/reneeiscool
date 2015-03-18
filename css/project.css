@@ -151,10 +151,12 @@
     background-image: url( '../images/left_arrow.png' );
     top: 320px;
     left: 40px;
+    opacity: .5;
 }
 
 #left_arrow:hover {
     cursor: pointer;
+    opacity: 1;
 }
 
 #right_arrow {
@@ -164,8 +166,10 @@
     background-image: url( '../images/right_arrow.png' );
     top: 320px;
     right: 40px;
+    opacity: .5;
 }
 
 #right_arrow:hover {
     cursor: pointer;
+    opacity: 1;
 }
