@@ -1,3 +1,17 @@
 /*
     This file contains styles for the index.html file
 */
+
+#header_image {
+    background-position: 50% 50%; /* Center the background image */
+    background-size: cover;
+
+    /* TODO: DIMENSIONS Get specific dimensions for the positioning of the menu */
+    height: 500px;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#main_header_table {
+    padding-right: 500px;
+}
