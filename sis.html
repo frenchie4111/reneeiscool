@@ -17,8 +17,10 @@
     <script src="javascript/gallery.js"></script>
     <script>
         var gallery_images = [ 'images/sis_stills/sis_1.png', 'images/sis_stills/sis_2.png' ];
+        var gallery_images_wireframes = [ 'images/sis_stills/sis_wireframes_1.png', 'images/sis_stills/sis_wireframes_2.png' ];
         $( function() {
             var gallery = new Gallery( gallery_images, '#project_stills_still_box_img', '#left_arrow', '#right_arrow', '#project_stills_circles' );
+            var gallery_wireframes = new Gallery( gallery_images_wireframes, '#project_stills_still_box_img_wireframes', '#left_arrow_wireframes', '#right_arrow_wireframes', '#project_stills_circles_wireframes' );
         } );
     </script>
 </head>
@@ -84,7 +86,7 @@
             <div class="project_stills_circles_container" id="project_stills_circles_wireframes"></div>
 
             <div class="project_stills_still_box">
-                <img src="images/sis_stills/sis_1.png" id="project_stills_still_box_img_wireframes" />
+                <img src="images/sis_stills/sis_wireframes_1.png" id="project_stills_still_box_img_wireframes" />
             </div>
         </div>
     </div>
