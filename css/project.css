@@ -159,7 +159,7 @@
     opacity: .5;
 }
 
-.arrow_hover:hover {
+.arrow:hover {
     cursor: pointer;
     opacity: 1;
 }
